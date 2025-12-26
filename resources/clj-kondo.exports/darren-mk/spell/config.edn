@@ -1,0 +1,2 @@
+{:lint-as {spell.instrument/tdefn clojure.core/defn}
+ :hooks {:analyze-call {spell.instrument/tlet hooks.tlet/tlet}}}
